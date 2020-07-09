@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import url(css/bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+    color: #333333;
+}
+
+ul {
+    padding: 0px
+}
+
+li {
+    list-style: none;
+}
+
+.site-header {
+    position: fixed;
+    left: 0;
+    padding-top: 0;
+    overflow: hidden;
+    width: 200px;
+    height: 100%;
+    display: block;
+    content: ' ';
+    display: table;
+    clear: both;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.site-menu .menu {
+    margin-top: 15px;
+    background-color: #333;
+    color: #CCC;
+    width: 100%;
+    padding: 15px 0px;
+    float: left;
+    margin-bottom: 10px
+}
+
+.site-menu li {
+    padding: 3px 0;
+}
+
+.site-menu li span {
+    cursor: pointer;
+    color: #FFF;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    border-bottom: #333 solid 2px;
+    margin-bottom: 5px;
+}
+
+.site-menu li span:hover {
+    color: #EAEAEA;
+    border-bottom: #9C9 solid 2px;
+}
+
+.site-main {
+    margin-left: 200px;
+    text-align: center;
+}
+
+.home .site-main img {
+    width: 100%
+}
+
+.home .site-main .post {
+    padding: 0px
+}
+
+.home .row {
+    margin-right: 0px;
+    margin-left: 0px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.modal .modal_content {
+    background-color: #eaeaea;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 350px;
+    z-index: 2;
+}
+
+
+.modal_content > img {
+    width: 45%;
+    float: left;
+    margin-right: 50px;
+    border: 0px solid #888;
+    box-shadow: 0 0 15px #333;
+    border-radius: 100%;
+}
+
+.modal_content > p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    
+}
+
+.modal_content > p:first-letter {
+    color: #000000;
+}
